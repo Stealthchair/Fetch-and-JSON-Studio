@@ -9,6 +9,7 @@ window.addEventListener("load", function(){
                 newAstronaut = document.createElement("div");
                 newAstronaut.setAttribute("class", "astronaut");
                 newAstronaut.innerHTML = response[i].firstname;
+                addAstronauts.appendChild(newAstronaut);
             }
         });
     });
