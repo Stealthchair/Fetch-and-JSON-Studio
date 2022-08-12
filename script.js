@@ -6,6 +6,7 @@ window.addEventListener("load", function(){
             const addAstronauts = document.getElementById("container");
             let newAstronaut;
             for(let i = 0; i < response.length; i++){
+                console.log("Hello");
                 newAstronaut = document.createElement("div");
                 newAstronaut.setAttribute("class", "astronaut");
                 newAstronaut.innerHTML = response[i].firstname;
